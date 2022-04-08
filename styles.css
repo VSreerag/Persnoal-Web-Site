@@ -177,6 +177,11 @@ li{
     margin-left: 37%;
     margin-right: 35%;
     background:#fff;
+    border-bottom: 1px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+    border-left: 1px solid #E6ECF8;
+    border-radius: 10px;
+    
 }
 
 .skill-card-title{
