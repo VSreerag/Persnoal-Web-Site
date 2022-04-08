@@ -140,6 +140,90 @@ li{
     margin-top: 40px;
 }
 
+.self-content{
+    width: 100%;
+    background: #7510F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 50px 20px 50px 20px;
+
+}
+
+.self-content-title{
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   font-weight: 900;
+   line-height: 1.125;
+   margin-top: 50px;
+   text-align: center;
+}
+
+.self-content-description{
+    text-align: center;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.skill-card{
+    width: 500px;
+    padding-top: 50px;
+    background: gray;
+    position: relative;
+    bottom: 25px;
+    text-align: center;
+    margin-left: 37%;
+    margin-right: 35%;
+    background:#fff;
+}
+
+.skill-card-title{
+    line-height: 1.150;
+    padding-top: 15px;
+    margin-top: 35px;
+    font-weight: 800;
+}
+
+.skill-card-description{
+    line-height: 1.75;
+    margin-top: 35px;
+}
+
+.skill-card-language{
+    padding-top: 30px;
+}
+
+.Skill-card-languages-title{
+    margin-top: 45px;
+    color: #7510F7;
+    font-weight: 650;
+}
+
+.skill-card-language-speak{
+    margin-top: 25px;
+}
+
+.skill-card-tools{
+    padding: 45px;
+}
+
+.skill-card-tools-title{
+    margin-top: 45px;
+    color: #7510F7;
+    font-weight: 650;
+}
+
+.skill-card-library{
+    padding-top: 15px;
+}
+
+.skill-card-tools-list{
+    line-height: 2;
+}
+
+
 @media (max-width:900px) {
     .navbar-menu {
         display: flex;
@@ -149,7 +233,7 @@ li{
 
     .sreerag-logo{
         position: relative;
-        left:  -80px;
+        left: -80px;
     }
     .navbar-end {
         display: none;
@@ -184,6 +268,17 @@ li{
     .main-body-footer-image{
         width: 460px;
         margin-left: 25px;
+    }
+
+    .self-content-title{
+        font-size: 20px;
+    }
+
+    .self-content-description{
+        font-size: 14px;
+        margin-right: 20px;
+        text-align: center;
+        font-weight: 800;
     }
 
 }
