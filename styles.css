@@ -181,6 +181,7 @@ li{
     border-right: 1px solid #E6ECF8;
     border-left: 1px solid #E6ECF8;
     border-radius: 10px;
+    box-shadow: 0px 2 px 5px 4px #E6ECF8;
     
 }
 
@@ -228,6 +229,54 @@ li{
     line-height: 2;
 }
 
+.footer-box{
+    width: 50%;
+    background: #141c3a;
+    margin-left: 24%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding: 50px 50px 50px 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.footer-box-title{
+    padding: 10px 0px 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.125;
+}
+
+.footer-box-contetnt{
+    padding: 10px 0px 10px 0;
+    line-height: 1.75;
+}
+
+.footer-box-connect{
+    padding: 10px 0px 10px 0;
+}
+
+.connect-me{
+    background: #141c3a;
+    color: white;
+    border: 2px solid #7510F7;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.connect-me:hover{
+    background: #7510F7;
+}
 
 @media (max-width:900px) {
     .navbar-menu {
@@ -284,6 +333,45 @@ li{
         margin-right: 20px;
         text-align: center;
         font-weight: 800;
+    }
+
+    .skill-card{
+        margin-left: 19%;
+        width: 300px;
+    }
+
+    .skill-card-title{
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .skill-card-description{
+        font-size: 15px;
+    }
+
+    .skill-card-language{
+       font-size: 15px;
+    }
+
+    .footer-box{
+       display: flex;
+       flex-direction: column;
+       padding: 10px 60px 10px 60px;
+       align-items: center;
+       margin-left: 12%;
+    }
+
+    .footer-box-title{
+        margin-right: 35px;
+    }
+
+    .footer-box-contetnt{
+        font-size: 14px;
+    }
+
+    .connect-me{
+        padding: 10px 20px 10px 20px;
+        margin-right: 20px;
     }
 
 }
