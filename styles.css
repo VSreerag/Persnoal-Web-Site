@@ -391,9 +391,9 @@ li{
     .footer-box{
        display: flex;
        flex-direction: column;
-       padding: 10px 40px 10px 40px;
+       padding: 20px 20px 20px 20px;
        align-items: center;
-       margin-left: 13%;
+       margin-left: 21%;
     }
 
     .footer-box-title{
@@ -404,11 +404,14 @@ li{
 
     .footer-box-contetnt{
         font-size: 14px;
+        text-align: center;
     }
 
     .connect-me{
         padding: 10px 20px 10px 20px;
-        margin-right: 20px;
+        margin-right: auto;
+        text-align: center;
+        
     }
 
     .footer-logo{
