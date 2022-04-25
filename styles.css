@@ -393,11 +393,12 @@ li{
        flex-direction: column;
        padding: 10px 60px 10px 60px;
        align-items: center;
-       margin-left: 12%;
+       margin-left: 13%;
     }
 
     .footer-box-title{
-        font-size: 1rem;
+        font-size: 15px;
+        font-weight: 800;
         margin-right: 35px;
     }
 
