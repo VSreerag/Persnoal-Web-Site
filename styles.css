@@ -149,7 +149,7 @@ li{
     justify-content: center;
     align-items: center;
     color: #fff;
-    padding: 50px 20px 50px 20px;
+    padding: 50px 20px 100px 20px;
 
 }
 
@@ -174,7 +174,7 @@ li{
     padding-top: 50px;
     background: gray;
     position: relative;
-    bottom: 25px;
+    bottom: 70px;
     text-align: center;
     margin-left: 37%;
     margin-right: 35%;
@@ -352,9 +352,13 @@ li{
         margin-left: 25px;
     }
 
+    .self-content{
+        padding: 10px 20px 70px 20px;
+    }
+
     .self-content-title{
-        font-size: 20px;
-        text-align: ;
+        font-size: 17px;
+        text-align:center ;
     }
 
     .self-content-description{
@@ -365,8 +369,10 @@ li{
     }
 
     .skill-card{
-        margin-left: 19%;
-        width: 300px;
+        margin-left: 21%;
+        width: 280px;
+        position: relative;
+        bottom: 50px;
     }
 
     .skill-card-title{
@@ -387,10 +393,11 @@ li{
        flex-direction: column;
        padding: 10px 60px 10px 60px;
        align-items: center;
-       margin-left: 13%;
+       margin-left: 14%;
     }
 
     .footer-box-title{
+        font-size: 1rem;
         margin-right: 35px;
     }
 
