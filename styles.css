@@ -330,16 +330,16 @@ li{
     }
 
     .main-content-body-title{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 800;
         line-height: 1;
         padding-top: 20px;
-        margin-left: 70px;
+       text-align: center;
     }
 
     .main-content-body-title-sub{
-        font-size: 16px;
-        margin-left: 35px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .main-body-image-avatar{
@@ -353,6 +353,7 @@ li{
 
     .self-content-title{
         font-size: 20px;
+        text-align: center;
     }
 
     .self-content-description{
